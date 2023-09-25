@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(40, 40, 40, 0.62)url(images/banners/images-main/banner1\ -\ Copy.jpg);
+    background-blend-mode: darken;
+
+}
+
+.logo {
+    width: 2rem;
+    margin-top: 1.2rem;
+    margin-left: 1.5rem;
+}
+
+.container {
+    position: absolute;
+    margin-left: 36%;
+    margin-top: 1%;
+    width: 440px;
+    height: 500px;
+    background-color: #111;
+}
+
+h1 {
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+input {
+    width: 340px;
+    height: 47px;
+    background-color: #333;
+    margin-left: 50px;
+    margin-top: 10px;
+    border: none;
+    font-size: 20px;
+
+}
+
+input::placeholder {
+    font-size: 17px;
+    margin-left: 15px;
+    padding: 13px;
+}
+
+input[type=submit] {
+    background-color: red ;
+    color: #fff;
+    font-size: 1.5rem;
+    height: 45px;
+    width: 320px;
+    border-radius: 3px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    width: 25px;
+    height: 15px;
+}
+
+label {
+    color: rgb(125, 110, 119);
+}
+
+.form a {
+    color: rgb(125, 110, 119);
+    float: right;
+    margin-top: 24px;
+    margin-right: 64px;
+    text-decoration: none;
+
+}
+
+.content {
+    position: absolute;
+    font-size: 9px;
+    margin-top: 80px;
+    margin-left: 55px;
+}
+
+.content h2 {
+    color: #fff;
+    margin-right: 20px;
+}
+
+.content a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    float: right;
+    margin-right: 14rem;
+    margin-top: -20px;
+}
+
+.desc {
+    margin-top: 1rem;
+}

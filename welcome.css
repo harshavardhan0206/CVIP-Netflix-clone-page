@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.footer {
+    padding-right: 50px 15% 10px;
+}
+
+.footer h1 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: aqua;
+}
+
+.footer .col {
+    flex-basis: 25%;
+    font-weight: 400;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    color: #777;
+}
+
+.footer .row {
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.footer .col a {
+    color: aqua;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00081d;
+    color: #fff;
+}
+
+/* ----------------------Navbar------------------------ */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+nav button {
+    border: 0;
+    outline: 0;
+    background-color: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 1rem;
+
+
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.btn {
+    background-color: #111;
+    border: 1px solid #777;
+}
+
+/* ----------------header----------------- */
+.header {
+    width: 88rem;
+    height: 100vh;
+    background-image: url(banners/banner1\ -\ Copy.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    border-radius: 2rem;
+    margin-left: -1.5rem;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.header .header-content {
+    margin-top: 15rem;
+    margin-left: 25rem;
+    align-items: center;
+}
+
+.header button {
+    border: 0;
+    outline: 0;
+    background-color: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 1rem;
+    font-size: 20px;
+}
+
+.header input{
+    width: 340px;
+    height: 37px;
+    margin-left: 1px;
+    margin-top: 10px;
+    border: none;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 7px 20px;
+    color: #111;
+    cursor: pointer;
+}
+/*-----------------------------------faq---------------------------------------*/
+.faq {
+    padding: 10px 12%;
+    font-size: 10px;
+}
+
+.faq h2 {
+    font-weight: 50px;
+    font-size: 48px;
+    margin-left: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.accordation {
+    margin-left: 2.2rem;
+    width: 100%;
+    max-width: 100rem;
+}
+
+.accordation li {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordation li label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    background-color: #132144;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after {
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+.faq.accordation.content {
+    background-color: #132144;
+    text-align: center;
+    padding: 0 20px;
+    overflow: hidden;
+    transition: max-height 0.5s padding 0.5s;
+}
+
+.accordation input[type=radio]:checked+label+.content {
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accordation input[type=radio]:checked+label
+
+/* ----------------------footer------------------------ */
+.footer {
+    padding: 50px 15% 10px;
+}
+
+.footer h1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #777;
+    margin-bottom: 1.8rem;
+
+}
+
+.footer .col {
+    flex-basis: 25%;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+
+/* padding will be given in a single command like padding left top bottom right */
+.footer .row {
+
+    align-items: flex-start;
+    padding: 10px 0;
+    display: flex;
+}
+
+.footer .col a {
+    color: #777;
+    text-decoration: none;
+    display: block;
+    margin-top: 0.7rem;
+    font-size: 1rem;
+}
+
+.footer p {
+    color: #777;
+    margin-top: 20px;
+}
+
+.footer button {
+    color: #777;
+    background-color: #0f1118;
+    border: 2px solid #777;
+}
+
+/*------------------------------features-----------------*/
+
+.features {
+    padding: 30px 20%;
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0%;
+}
+
+.text-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.features h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.img-col img {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+hr {
+    width: 100%;
+    height: 4px;
+    border-radius: 1.5rem;
+    color: #777;
+    background-color: #777;
+    border: none;
+}
